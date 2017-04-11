@@ -1,4 +1,4 @@
-var app = angular.module('Webvid', [ngRoute]);
+var app = angular.module('Webvid', ['ngRoute']);
 
 app.config(['$routeProvider', function($routeProvider) {
     $routeProvider
